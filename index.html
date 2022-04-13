@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Tours – SetSail</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Header -->
+        <div class="header">
+            <ul class="header__contact">
+                <li class="header__contact-item">
+                    <a href="" class="header__contact-item-link">
+                        <i class="header__contact-icon far fa-envelope"></i>
+                        <span class="header__contact-text">setsail@qode.com</span>
+                    </a>
+                </li>
+                <li class="header__contact-item">
+                    <a href="" class="header__contact-item-link">
+                        <i class="header__contact-icon fas fa-phone-alt"></i>
+                        <span class="header__contact-text">1 562 867 5309</span>
+                    </a>
+                </li>
+                <li class="header__contact-item">
+                    <a href="" class="header__contact-item-link">
+                        <i class="header__contact-icon fas fa-map-marker-alt"></i>
+                        <span class="header__contact-text">Broadway & Morris St, New York</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="header__wrap">
+                <ul class="header__social">
+                    <li class="header__social-item">
+                        <a href="" class="header__social-item-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-item-link">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-item-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-item-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="header__language">
+                    <span>English</span>
+                    <i class="fas fa-chevron-down"></i>
+                    <ul class="header__language-list">
+                        <li class="header__language-item">
+                            <a href="" class="header__language-item-link">
+                                <span class="header__language-option">French</span>
+                            </a>
+                        </li>
+                        <li class="header__language-item">
+                            <a href="" class="header__language-item-link">
+                                <span class="header__language-option">German</span>
+                            </a>
+                        </li>
+                        <li class="header__language-item">
+                            <a href="" class="header__language-item-link">
+                                <span class="header__language-option">Italian</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__user">
+                    <div class="header__user-link">
+                        <svg class="header__user-img" version="1.1" x="0px" y="0px" viewBox="0 0 23 23" enable-background="new 0 0 23 23" xml:space="preserve">
+                            <g>
+                                <path
+                                    fill="currentColor"
+                                    d="M11.5,14.1c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4s4,1.8,4,4C15.5,12.3,13.7,14.1,11.5,14.1z M11.5,7.3
+                                    c-1.6,0-2.8,1.3-2.8,2.8c0,1.6,1.3,2.8,2.8,2.8s2.8-1.3,2.8-2.8C14.3,8.5,13,7.3,11.5,7.3z"
+                                ></path>
+                                <path
+                                    fill="currentColor"
+                                    d="M11.5,23c-3.1,0-5.9-1.2-8.1-3.4c-2.2-2.2-3.4-5-3.4-8.1s1.2-5.9,3.4-8.1c2.2-2.2,5-3.4,8.1-3.4
+                                    s5.9,1.2,8.1,3.4c2.2,2.2,3.4,5,3.4,8.1s-1.2,5.9-3.4,8.1C17.4,21.8,14.5,23,11.5,23z M11.5,1.2C5.8,1.2,1.2,5.9,1.2,11.5
+                                    s4.6,10.3,10.3,10.3s10.3-4.6,10.3-10.3S17.1,1.2,11.5,1.2z"
+                                ></path>
+                                <path
+                                    fill="currentColor"
+                                    d="M11.5,23c-1.5,0-2.9-0.3-4.2-0.8c-0.2-0.1-0.4-0.3-0.4-0.6v-5.3c0-1.8,1.5-3.3,3.3-3.3h2.6
+                                    c1.8,0,3.3,1.5,3.3,3.3v5.3c0,0.2-0.1,0.5-0.4,0.6C14.4,22.7,12.9,23,11.5,23z M8.1,21.2c1.1,0.4,2.2,0.6,3.4,0.6s2.3-0.2,3.4-0.6
+                                    v-4.9c0-1.2-0.9-2.1-2.1-2.1h-2.6c-1.2,0-2.1,0.9-2.1,2.1V21.2z"
+                                ></path>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav mobile -->
+        <div id="navbar-tablet-mobile" class="header-tablet-mobile">
+            <label for="header-tablet-mobile-checkbox" class="header-tablet-mobile__menu-btn">
+                <!-- <i class="fas fa-bars header-tablet-mobile__menu-icon"></i> -->
+                <ion-icon name="menu-outline" class="header-tablet-mobile__menu-icon"></ion-icon>
+            </label>
+            <input type="checkbox" hidden id="header-tablet-mobile-checkbox" class="header__menu-chekbox">
+            <ul class="mobile-menu">
+                <li class="mobile-menu__item text--active">
+                    <div class="mobile-menu__heading">
+                        <span class="mobile-menu__text color-text--active">Home</span>
+                        <i class="fas fa-chevron-right mobile-menu__icon arrow-right"></i>
+                        <i class="fas fa-chevron-down mobile-menu__icon arrow-down"></i>
+                    </div>
+                    <ul class="mobile-sub-menu__list">
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Travel Agency</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Winter Holidays</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Exotic Destinations</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Summer Holidays</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">City Tours</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">New Year Trips</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">New Year Trips</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Destinations Carousel</a>
+                        </li>
+                        <li class="mobile-sub-menu__item text--active">
+                            <a href="" class="mobile-sub-menu__link color-text--active">Wine Tours</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Vacation Showcase</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Landing</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="mobile-menu__item">
+                    <div class="mobile-menu__heading">                    
+                        <span class="mobile-menu__text">Pages</span>
+                        <i class="fas fa-chevron-right mobile-menu__icon arrow-right"></i>
+                        <i class="fas fa-chevron-down mobile-menu__icon arrow-down"></i>
+                    </div>
+                    <ul class="mobile-sub-menu__list">
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">About Us</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">What We Offer</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Our Team</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Get In Touch</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Contact Us</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">FAQ Page</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Coming Soon</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Error Page</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="mobile-menu__item">
+                    <div class="mobile-menu__heading">                    
+                        <span class="mobile-menu__text">Destinations</span>
+                        <i class="fas fa-chevron-right mobile-menu__icon arrow-right"></i>
+                        <i class="fas fa-chevron-down mobile-menu__icon arrow-down"></i>
+                    </div>
+                    <ul class="mobile-sub-menu__list">
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Destination List</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Destination Slider</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Destination Item</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="mobile-menu__item">
+                    <div class="mobile-menu__heading">                    
+                        <span class="mobile-menu__text">Tours</span>
+                        <i class="fas fa-chevron-right mobile-menu__icon arrow-right"></i>
+                        <i class="fas fa-chevron-down mobile-menu__icon arrow-down"></i>
+                    </div>
+                    <ul class="mobile-sub-menu__list">
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Standard List</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Gallery List</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Split List</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Tour Item</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="mobile-menu__item">
+                    <div class="mobile-menu__heading">                    
+                        <span class="mobile-menu__text">Blog</span>
+                        <i class="fas fa-chevron-right mobile-menu__icon arrow-right"></i>
+                        <i class="fas fa-chevron-down mobile-menu__icon arrow-down"></i>
+                    </div>
+                    <ul class="mobile-sub-menu__list">
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Blog Masonry</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Blog Standard</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Post Types</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="mobile-menu__item">
+                    <div class="mobile-menu__heading">                    
+                        <span class="mobile-menu__text">Shop</span>
+                        <i class="fas fa-chevron-right mobile-menu__icon arrow-right"></i>
+                        <i class="fas fa-chevron-down mobile-menu__icon arrow-down"></i>
+                    </div>
+                    <ul class="mobile-sub-menu__list">
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Product List</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Product Single</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Shop Layouts</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Shop Pages</a>
+                        </li>
+                    </ul> 
+                </li>
+                <li class="mobile-menu__item">
+                    <div class="mobile-menu__heading">                    
+                        <span class="mobile-menu__text">Elements</span>
+                        <i class="fas fa-chevron-right mobile-menu__icon arrow-right"></i>
+                        <i class="fas fa-chevron-down mobile-menu__icon arrow-down"></i>
+                    </div>
+                    <ul class="mobile-sub-menu__list">
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Featured</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Presentation</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Classic</a>
+                        </li>
+                        <li class="mobile-sub-menu__item">
+                            <a href="" class="mobile-sub-menu__link">Typography</a>
+                        </li>
+                    </ul> 
+                </li>
+            </ul>
+            <!-- <ul class="mobile-menu">
+                <li class="mobile-menu__item text--active">
+                    <span class="mobile-menu__text color-text--active">Home</span>
+                    <i class="fas fa-chevron-right mobile-menu__icon"></i>   
+                </li>
+                <li class="mobile-menu__item">
+                    <span class="mobile-menu__text">Pages</span>
+                    <i class="fas fa-chevron-right mobile-menu__icon"></i>   
+                </li>
+                <li class="mobile-menu__item">
+                    <span class="mobile-menu__text">Destinations</span>
+                    <i class="fas fa-chevron-right mobile-menu__icon"></i>   
+                </li>
+                <li class="mobile-menu__item">
+                    <span class="mobile-menu__text">Tours</span>
+                    <i class="fas fa-chevron-right mobile-menu__icon"></i>   
+                </li>
+                <li class="mobile-menu__item">
+                    <span class="mobile-menu__text">Blog</span>
+                    <i class="fas fa-chevron-right mobile-menu__icon"></i>   
+                </li>
+                <li class="mobile-menu__item">
+                    <span class="mobile-menu__text">Shop</span>
+                    <i class="fas fa-chevron-right mobile-menu__icon"></i>   
+                </li>
+                <li class="mobile-menu__item">
+                    <span class="mobile-menu__text">Elements</span>
+                    <i class="fas fa-chevron-right mobile-menu__icon"></i>   
+                </li>
+            </ul> -->
+            <a href="/" class="header-tablet-mobile__img-link">
+                <img src="./assets/img/logo-mobile-img.png" alt="" class="header-tablet-mobile__img">
+            </a>
+            <div class="header__user header__user-tablet-mobile">
+                <div class="header__user-link">
+                    <svg class="header__user-img" version="1.1" x="0px" y="0px" viewBox="0 0 23 23" enable-background="new 0 0 23 23" xml:space="preserve">
+                        <g>
+                            <path
+                                fill="currentColor"
+                                d="M11.5,14.1c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4s4,1.8,4,4C15.5,12.3,13.7,14.1,11.5,14.1z M11.5,7.3
+                                c-1.6,0-2.8,1.3-2.8,2.8c0,1.6,1.3,2.8,2.8,2.8s2.8-1.3,2.8-2.8C14.3,8.5,13,7.3,11.5,7.3z"
+                            ></path>
+                            <path
+                                fill="currentColor"
+                                d="M11.5,23c-3.1,0-5.9-1.2-8.1-3.4c-2.2-2.2-3.4-5-3.4-8.1s1.2-5.9,3.4-8.1c2.2-2.2,5-3.4,8.1-3.4
+                                s5.9,1.2,8.1,3.4c2.2,2.2,3.4,5,3.4,8.1s-1.2,5.9-3.4,8.1C17.4,21.8,14.5,23,11.5,23z M11.5,1.2C5.8,1.2,1.2,5.9,1.2,11.5
+                                s4.6,10.3,10.3,10.3s10.3-4.6,10.3-10.3S17.1,1.2,11.5,1.2z"
+                            ></path>
+                            <path
+                                fill="currentColor"
+                                d="M11.5,23c-1.5,0-2.9-0.3-4.2-0.8c-0.2-0.1-0.4-0.3-0.4-0.6v-5.3c0-1.8,1.5-3.3,3.3-3.3h2.6
+                                c1.8,0,3.3,1.5,3.3,3.3v5.3c0,0.2-0.1,0.5-0.4,0.6C14.4,22.7,12.9,23,11.5,23z M8.1,21.2c1.1,0.4,2.2,0.6,3.4,0.6s2.3-0.2,3.4-0.6
+                                v-4.9c0-1.2-0.9-2.1-2.1-2.1h-2.6c-1.2,0-2.1,0.9-2.1,2.1V21.2z"
+                            ></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- Logo -->
+        <div class="logo">
+            <a href="/" class="logo-img-link">
+                <img src="./assets/img/logo.png" alt="logo" class="logo-img">
+            </a>
+        </div>
+        <!-- Navbar -->
+        <div class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link text--active">
+                        <span class="nav__text color-text--active">Home</span>
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Travel Angency</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Winter Holidays</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Exotic Destinations</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Summer Holidays</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">City Tours</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">New Year Trips</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Destinations Carousel</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link text--active">
+                                <span class="navbar__text color-text--active">Wine Tours</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Vacation Showcase</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Landing</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">Pages</span>
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">About Us</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">What We Offer</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Our Team</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Get In Touch</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Contact Us</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">FAQ Page</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Coming Soon</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Error Page</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">Destinations</span>
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Destination List</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Destination Slider</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Destination Item</span>
+                            </a>
+                        </li>                   
+                    </ul>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">Tours</span>
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Standard List</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Gallery List</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Split List</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Tour Item</span>
+                            </a>
+                        </li>                   
+                    </ul>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">Blog</span>
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Blog Masonry</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Blog Standard</span>
+                                <i class="fas fa-chevron-right navbar__icon"></i>                             
+                            </a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Right Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Left Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Without Sidebar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Post Types</span>
+                                <i class="fas fa-chevron-right navbar__icon"></i>
+                            </a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Standard</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Gallery</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Link</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Quote</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Video</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Audio</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">No Audio</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>                   
+                    </ul>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">Shop</span>
+                    </a>
+                    <ul class="navbar__list"> 
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Product List</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Product Single</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Shop Layouts</span>
+                                <i class="fas fa-chevron-right navbar__icon"></i>
+                            </a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Three Columns</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Four Columns</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Full Width</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link">
+                                <span class="navbar__text">Shop Pages</span>
+                                <i class="fas fa-chevron-right navbar__icon"></i>
+                            </a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">My account</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Cart</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link">
+                                        <span class="subnav__text">Checkout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>                   
+                    </ul>
+                </li>
+                <!-- <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">Shop</span>
+                    </a>
+                    <ul class="navbar__list--reverse"> 
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link--reverse">
+                                <span class="navbar__text">Product List</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link--reverse">
+                                <span class="navbar__text">Product Single</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link--reverse">
+                                <span class="navbar__text">Shop Layouts</span>
+                                <i class="fas fa-chevron-left navbar__icon"></i>
+                            </a>
+                            <ul class="subnav__list--reverse">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link--reverse">
+                                        <span class="subnav__text">Three Columns</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link--reverse">
+                                        <span class="subnav__text">Four Columns</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link--reverse">
+                                        <span class="subnav__text">Full Width</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link--reverse">
+                                <span class="navbar__text">Shop Pages</span>
+                                <i class="fas fa-chevron-left navbar__icon"></i>
+                            </a>
+                            <ul class="subnav__list--reverse">
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link--reverse">
+                                        <span class="subnav__text">My account</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link--reverse">
+                                        <span class="subnav__text">Cart</span>
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="" class="subnav__link--reverse">
+                                        <span class="subnav__text">Checkout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>                   
+                    </ul>
+                </li> -->
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__text">Elements</span>
+                    </a>
+                    <div class="navbar-full">
+                        <ul class="navbar-full__list">
+                            <li class="navbar-full__item">
+                                <h3 class="navbar-full__heading"><span>Featured</span></h3>
+                                <ul class="subnav-full__list">
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Tour List</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Tour Carousel</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Tours Filter</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Destination With Tours</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Destination List</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Destination Fullscreen Slider</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Fullscreen Sections</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Reviews Carousel</span>
+                                        </a>
+                                    </li>                                   
+                                </ul>
+                            </li>
+                            <li class="navbar-full__item">
+                                <h3 class="navbar-full__heading"><span>Presentation</span></h3>
+                                <ul class="subnav-full__list">
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Team</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Blog List</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Shop List</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Testimonials</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Banner</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Clients</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Parallax Section</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Video Button</span>
+                                        </a>
+                                    </li>                                   
+                                </ul>
+                            </li>
+                            <li class="navbar-full__item">
+                                <h3 class="navbar-full__heading"><span>Classic</span></h3>
+                                <ul class="subnav-full__list">
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Accordions</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Tabs</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Buttons</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Google Maps</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Contact Form</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Progress Bar</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Countdown</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Counters</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Call To Action</span>
+                                        </a>
+                                    </li>                                    
+                                </ul>
+                            </li>
+                            <li class="navbar-full__item">
+                                <h3 class="navbar-full__heading"><span>Typography</span></h3>
+                                <ul class="subnav-full__list">
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Headings</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Columns</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Section Title</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Blockquote</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Dropcaps</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Highlights</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Icon with text</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Separators</span>
+                                        </a>
+                                    </li>
+                                    <li class="subnav-full__item">
+                                        <a href="" class="subnav-full__link">
+                                            <span class="subnav-full__text">Custom Font</span>
+                                        </a>
+                                    </li>                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="main__container">
+            <div class="grid wide">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide slider">
+                            <div class="slider__right" style="background-image: url(./assets/img/slide1.jpg);">
+                                <img src="./assets/img/textslider1.png" alt="" class="slider__right-text">
+                            </div>
+                            <img src="./assets/img/slide1.2.jpg" alt="" class="slider__left">
+                        </div>
+                        <div class="swiper-slide slider">
+                            <div class="slider__right" style="background-image: url(./assets/img/slide2.jpg);">
+                                <img src="./assets/img/textslider2.png" alt="" class="slider__right-text">
+                            </div>
+                            <img src="./assets/img/slide2.2.jpg" alt="" class="slider__left">
+                        </div>
+                        <div class="swiper-slide slider">
+                            <div class="slider__right" style="background-image: url(./assets/img/slide3.jpg);">
+                                <img src="./assets/img/textslider2.png" alt="" class="slider__right-text">
+                            </div>
+                            <img src="./assets/img/slide3.2.jpg" alt="" class="slider__left">
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <!-- Our Popular Tours Top -->
+                <div class="popular-tour-top row">
+                    <div class="col l-4 m-12 c-12">
+                        <img src="./assets/img/img1.png" alt="" class="popular-tour-top__img">
+                    </div>
+                    <div class="col l-8 m-12 c-12">
+                        <div class="popular-tour-top__info">
+                            <h2 class="info__heading">Our Popular Tours</h2>
+                            <p class="info__description">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver ra nulla ut metus varius laoreet. Quisque rutrum.</p>
+                            <div class="chart-layout">
+                                <div class="chart-layout__wrap">
+                                    <div class="chart-layout__title">
+                                        <span class="chart-layout__text">Countryside</span>
+                                        <span class="counter chart-layout__percent">76</span>
+                                    </div>
+                                    <div class="chart-layout__item-full">
+                                        <div id="per-76" class="chart-layout__item-per" style="--percent: 76%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-layout__wrap">
+                                    <div class="chart-layout__title">
+                                        <span class="chart-layout__text">Vineyard</span>
+                                        <span class="counter chart-layout__percent">92</span>
+                                    </div>
+                                    <div class="chart-layout__item-full">
+                                        <div id="per-92" class="chart-layout__item-per" style="--percent: 92%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-layout__wrap">
+                                    <div class="chart-layout__title">
+                                        <span class="chart-layout__text">Wine Tasting</span>
+                                        <span class="counter chart-layout__percent">86</span>
+                                    </div>
+                                    <div class="chart-layout__item-full">
+                                        <div id="per-86" class="chart-layout__item-per" style="--percent: 86%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mountain Image -->
+                <div class="moutain-img-wrap">
+                    <img src="./assets/img/mountain.jpg" alt="mountain-img" class="mountain-img">
+                </div>
+                <!-- The Best Tour -->
+                <div class="best-tour">
+                    <div class="best-tour-header-wrap">
+                        <h1 class="best-tour__heading">The Best Tours</h1>
+                        <p class="best-tour__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+                    </div>
+                    <div class="row m-gutter">
+                        <div class="col l-3 m-6 c-12">
+                            <a href="" class="wrap-img">
+                                <div class="box-img">
+                                    <img src="./assets/img/img1.1.jpg" alt="" class="best-tour__img">
+                                </div>
+                                <div class="best-tour__text">
+                                    <p class="best-tour__title">Wine Festival</p>
+                                    <p class="best-tour__price">$550</p>
+                                </div>
+                            </a>
+                            <a href="" class="wrap-img">
+                                <div class="box-img">
+                                    <img src="./assets/img/img5.jpg" alt="" class="best-tour__img">
+                                </div>
+                                <div class="best-tour__text">
+                                    <p class="best-tour__title">Champagne</p>
+                                    <p class="best-tour__price">$2130</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <a href="" class="wrap-img">
+                                <div class="box-img">
+                                    <img src="./assets/img/img2.jpg" alt="" class="best-tour__img">
+                                </div>
+                                <div class="best-tour__text">
+                                    <p class="best-tour__title">Wine Tasting</p>
+                                    <p class="best-tour__price">$920</p>
+                                </div>
+                            </a>
+                            <a href="" class="wrap-img">
+                                <div class="box-img">
+                                    <img src="./assets/img/img6.jpg" alt="" class="best-tour__img">
+                                </div>
+                                <div class="best-tour__text">
+                                    <p class="best-tour__title">Villages</p>
+                                    <p class="best-tour__price">$850</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <a href="" class="wrap-img wrap-img--full-height">
+                                <div class="box-img">
+                                    <img src="./assets/img/img3.jpg" alt="" class="best-tour__img">
+                                </div>
+                                <div class="best-tour__text">
+                                    <p class="best-tour__title">Camping</p>
+                                    <p class="best-tour__price">$1550</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <a href="" class="wrap-img">
+                                <div class="box-img">
+                                    <img src="./assets/img/img4.jpg" alt="" class="best-tour__img">
+                                </div>
+                                <div class="best-tour__text">
+                                    <p class="best-tour__title">Harvest</p>
+                                    <p class="best-tour__price">$2600</p>
+                                </div>
+                            </a>
+                            <a href="" class="wrap-img">
+                                <div class="box-img">
+                                    <img src="./assets/img/img7.jpg" alt="" class="best-tour__img">
+                                </div>
+                                <div class="best-tour__text">
+                                    <p class="best-tour__title">Local Wines</p>
+                                    <p class="best-tour__price">$1300</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Number Count -->
+                <div class="number-count row">
+                    <div class="col-number col l-3 m-6 c-12">
+                        <div class="number-count-wrap">
+                            <span class="counter number">45</span>
+                            <h5 class="number-count__title">Glasses of Wine</h5>
+                            <p class="number-count__description">Cap at perspic iatis unde omnis iste natus error sit volup tatem</p>
+                        </div>
+                    </div>
+                    <div class="col-number col l-3 m-6 c-12">
+                        <div class="number-count-wrap">
+                            <span class="counter number">126</span>
+                            <h5 class="number-count__title">Years of experience</h5>
+                            <p class="number-count__description">Sop ut perspic iatis ande emnis iste natus error sit volup fatom</p>
+                        </div>
+                    </div>
+                    <div class="col-number col l-3 m-6 c-12">
+                        <div class="number-count-wrap">
+                            <span class="counter number">452</span>
+                            <h5 class="number-count__title">Unique Wines</h5>
+                            <p class="number-count__description">Sed ut perspic iatis unde omnis iste natus error sit volup tatem</p>
+                        </div>
+                    </div>
+                    <div class="col-number col l-3 m-6 c-12">
+                        <div class="number-count-wrap">
+                            <span class="counter number">247</span>
+                            <h5 class="number-count__title">Sorts of Wine</h5>
+                            <p class="number-count__description">Cap of qerspic iatis ande umnis lcte natus error sit volup fatem</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video -->
+                <div class="video">
+                    <div class="video__btn">
+                        <img src="./assets/img/btn-img.jpg" alt="video-img" class="video__btn-img">
+                        <div class="video__btn-play">
+                            <img src="./assets/img/btn-play.png" alt="play" class="video__btn-play-img">
+                        </div>
+                    </div>
+                    <div class="modal-video">
+                        <iframe class="video-player" src="" width="960/embed/?moog_width=960" height="540" frameborder="no"></iframe>
+                    </div>
+                </div>
+                <!-- Our Popular Tours Bottom  -->
+                <div class="popular-tour-bottom row">
+                    <div class="col l-8 m-12 c-12">
+                        <div class="popular-tour-bottom__info">
+                            <h2 class="info__heading">Our Popular Tours</h2>
+                            <p class="info__description">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo</p>
+                        </div>
+                        <div class="popular-tour-bottom__item-wrap">
+                            <div class="row">
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="popular-tour-bottom__item">
+                                        <img src="./assets/img/icon1.png" alt="" class="popular-tour-bottom__item-img">
+                                        <p class="popular-tour-bottom__item-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="popular-tour-bottom__item">
+                                        <img src="./assets/img/icon2.png" alt="" class="popular-tour-bottom__item-img">
+                                        <p class="popular-tour-bottom__item-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="popular-tour-bottom__item">
+                                        <img src="./assets/img/icon3.png" alt="" class="popular-tour-bottom__item-img">
+                                        <p class="popular-tour-bottom__item-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="popular-tour-bottom__item">
+                                        <img src="./assets/img/icon4.png" alt="" class="popular-tour-bottom__item-img">
+                                        <p class="popular-tour-bottom__item-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="popular-tour-bottom__img-wrap">
+                            <img src="./assets/img/popular-bot.png" alt="" class="popular-tour-bottom__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="footer__wrap">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12">
+                            <div class="footer__item">
+                                <img src="./assets/img/logo-footer.png" alt="logo-footer">
+                                <p class="footer__text">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</p>
+                                <div class="footer__contact">
+                                    <a href="" class="footer__contact-link">
+                                        <i class="footer__contact-icon far fa-envelope"></i>
+                                        <span class="footer__contact-text">setsail@qode.com</span>
+                                    </a>
+                                    <a href="" class="footer__contact-link">
+                                        <i class="footer__contact-icon fas fa-phone-alt"></i>
+                                        <span class="footer__contact-text">1 562 867 5309</span>
+                                    </a>
+                                    <a href="" class="footer__contact-link">
+                                        <i class="footer__contact-icon fas fa-map-marker-alt"></i>
+                                        <span class="footer__contact-text">Broadway & Morris St, New York</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="footer__item">
+                                <h5 class="footer__heading">Our Recent Posts</h5>
+                                <ul class="footer__post-list">
+                                    <li class="footer__post-item">
+                                        <a href="" class="footer__post-link-location"><span>Visit Thailand, Bali And China</span></a>
+                                        <a href="" class="footer__post-link-time"><span>September 7, 2016</span></a>
+                                    </li>
+                                    <li class="footer__post-item">
+                                        <a href="" class="footer__post-link-location"><span>The Sound Of Our Jungle</span></a>
+                                        <a href="" class="footer__post-link-time"><span>September 7, 2016</span></a>
+                                    </li>
+                                    <li class="footer__post-item">
+                                        <a href="" class="footer__post-link-location"><span>New Year, New Resolutions!</span></a>
+                                        <a href="" class="footer__post-link-time"><span>September 7, 2016</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="footer__item">
+                                <h5 class="footer__heading">Subscribe to our Newsletter</h5>
+                                <p class="footer__desc">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+                                <form action="" class="form-footer">
+                                    <div class="input-wrap">
+                                        <i class="fas fa-user input-icon"></i>
+                                        <input type="text" name="" placeholder="Name" required class="footer__form-control">                                      
+                                    </div>
+                                    <div class="input-wrap">
+                                        <i class="far fa-envelope input-icon"></i>
+                                        <input type="email" name="" placeholder="Email" required class="footer__form-control">                                      
+                                    </div>
+                                    <input type="submit" value="Subscribe" class="footer__btn">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="footer__item">
+                                <h5 class="footer__heading">Our Instagram</h5>
+                                <p class="footer__desc">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</p>
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p class="copyright__text">
+                        Powered by @
+                        <a href="" class="copyright__link">Hezi Solis <i class="fas fa-heart"></i></a>
+                    </p>
+                </div>          
+            </div>
+        </div>
+        <!-- Modal Login -->
+        <div class="modal">
+            <div class="modal-container">
+                <div class="modal-tabs">
+                    <div class="tab-item tab-active">Login</div>
+                    <div class="tab-item">Register</div>
+                </div>
+                <div class="modal-contents">
+                    <div class="content-item content-active">
+                        <h4 class="content-heading">Sign In Here!</h4>
+                        <p class="content-desc">Log into your account in just a few simple steps.</p>
+                        <form action="" class="modal-form">
+                            <div class="input-wrap">
+                                <i class="fas fa-user input-icon"></i>
+                                <input type="text" placeholder="User Name" required class="modal-form-control">
+                            </div>
+                            <div class="input-wrap">
+                                <i class="fas fa-lock input-icon"></i>
+                                <input type="password" placeholder="Password" required class="modal-form-control">
+                            </div>
+                            <input type="checkbox" name="" hidden id="remember" class="remember-checkbox">
+                            <label for="remember" class="remember-check">Remember me</label>
+                            <a href="#" class="lost-pw">Lost Your password?</a>
+                            <input type="submit" value="SIGN IN" class="modal-btn">
+                        </form>
+                        <p class="modal-login-social">Sign in with Facebook or Google+</p>
+                        <div class="social-btn-wrap">
+                            <a href="#" class="social-btn fb-btn">Facebook</a>
+                            <a href="#" class="social-btn gg-btn">Google</a>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <h4 class="content-heading">Register Now!</h4>
+                        <p class="content-desc">Join the SetSail community today & set up a free account.</p>
+                        <form action="" class="modal-form">
+                            <div class="input-wrap">
+                                <i class="fas fa-user input-icon"></i>
+                                <input type="text" placeholder="User Name" required class="modal-form-control">
+                            </div>
+                            <div class="input-wrap">
+                                <i class="far fa-envelope input-icon"></i>
+                                <input type="email" placeholder="Email" required class="modal-form-control">
+                            </div>
+                            <div class="input-wrap">
+                                <i class="fas fa-lock input-icon"></i>
+                                <input type="password" placeholder="Password" required class="modal-form-control">
+                            </div>
+                            <div class="input-wrap">
+                                <i class="fas fa-lock input-icon"></i>
+                                <input type="password" placeholder="Repeat Password" required class="modal-form-control">
+                            </div>                   
+                            <input type="submit" value="REGISTER" class="modal-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="back-to-top">TOP</span>
+    </div>
+
+    <!-- Script -->
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper", {
+          spaceBetween: 0,
+          centeredSlides: true,
+          loop: true, //bật vòng lặp để không disable navigation button
+          effect: "fade",
+          fadeEffect: {
+            crossFade: true
+          },
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false 
+            //disableOnInteraction false thì autoplay sẽ ko tự động tắt khi người dùng tương tác vs slide
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          }
+        });
+    </script>
+    <!-- Count up -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1490
+            });
+        });
+    </script>
+    <!-- Back-to-top -->
+    <script>
+        // sử dụng jQuery(document).ready(function($) thay vì $(document).ready(function() là do file js có biến $
+        jQuery(document).ready(function($){
+            $(window).scroll(function(){
+                if($(window).scrollTop() > 400){
+                    $('.back-to-top').css({
+                        "opacity":"1", "pointer-events":"auto"
+                    });
+                }else{
+                    $('.back-to-top').css({
+                        "opacity":"0", "pointer-events":"none"
+                    });
+                }
+            });
+            $('.back-to-top').click(function(){
+                $('html').animate({scrollTop:0}, 1100);
+            });
+        });
+    </script>
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>

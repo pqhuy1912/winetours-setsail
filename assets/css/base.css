@@ -1,0 +1,44 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #3fd0d4;
+    --primary-color-dark: #3abdc1;
+    --heading-color: #212121;
+    --text-color: #505050;
+    --bg-color: #1c1c1c;
+    --header-tablet-mobile-height: 69px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+.text--active .color-text--active{
+    color: var(--primary-color);
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes Grow {
+    0%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+
